@@ -30,9 +30,9 @@ playlist.forEach(function(song){
 
 $("#form").push
 
-$("#cart").append("<p>" + song["name"] + " " + song["length"] + "</p>");
+$("#cart").append("<p>" + song["name"] + " " + song["length"] + " " + song[ "imagelink"] + "</p>");
 
-
+`<p>${song["name"]} ${song["length"]} ${song["imagelink"]} </p>`
 
 });
 
