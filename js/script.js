@@ -26,14 +26,20 @@ var playlist = [
 
 ]
 
-playlist.forEach(function(song){
+var songs = {
+    name: $("#song").val(),
+    length: $("#length").val(),
+    artist: $("#artist").val(),
+    link: $("#link").val(),
+    image: $("#image").val()
 
-$("#form").push
+}
 
-$("#cart").append("<p>" + song["name"] + " " + song["length"] + " " + song[ "imagelink"] + "</p>");
+playlist.push(songs)
 
-`<p>${song["name"]} ${song["length"]} ${song["imagelink"]} </p>`
 
-});
+
+
+
 
 });
